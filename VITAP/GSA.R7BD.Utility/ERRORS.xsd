@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ERRORS" targetNamespace="http://tempuri.org/ERRORS.xsd" xmlns:mstns="http://tempuri.org/ERRORS.xsd" xmlns="http://tempuri.org/ERRORS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ERRORS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ERRORS" msprop:Generator_DataSetName="ERRORS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ErrorHistory" msprop:Generator_UserTableName="ErrorHistory" msprop:Generator_RowDeletedName="ErrorHistoryRowDeleted" msprop:Generator_TableClassName="ErrorHistoryDataTable" msprop:Generator_RowChangedName="ErrorHistoryRowChanged" msprop:Generator_RowClassName="ErrorHistoryRow" msprop:Generator_RowChangingName="ErrorHistoryRowChanging" msprop:Generator_RowEvArgName="ErrorHistoryRowChangeEvent" msprop:Generator_RowEvHandlerName="ErrorHistoryRowChangeEventHandler" msprop:Generator_TablePropName="ErrorHistory" msprop:Generator_TableVarName="tableErrorHistory" msprop:Generator_RowDeletingName="ErrorHistoryRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Server" msprop:Generator_UserColumnName="Server" msprop:Generator_ColumnPropNameInRow="Server" msprop:Generator_ColumnVarNameInTable="columnServer" msprop:Generator_ColumnPropNameInTable="ServerColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Website" msprop:Generator_UserColumnName="Website" msprop:Generator_ColumnPropNameInRow="Website" msprop:Generator_ColumnVarNameInTable="columnWebsite" msprop:Generator_ColumnPropNameInTable="WebsiteColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Method" msprop:Generator_UserColumnName="Method" msprop:Generator_ColumnPropNameInRow="Method" msprop:Generator_ColumnVarNameInTable="columnMethod" msprop:Generator_ColumnPropNameInTable="MethodColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ErrSource" msprop:Generator_UserColumnName="ErrSource" msprop:Generator_ColumnPropNameInRow="ErrSource" msprop:Generator_ColumnVarNameInTable="columnErrSource" msprop:Generator_ColumnPropNameInTable="ErrSourceColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ErrMessage" msprop:Generator_UserColumnName="ErrMessage" msprop:Generator_ColumnPropNameInRow="ErrMessage" msprop:Generator_ColumnVarNameInTable="columnErrMessage" msprop:Generator_ColumnPropNameInTable="ErrMessageColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DateTime" msprop:Generator_UserColumnName="DateTime" msprop:Generator_ColumnPropNameInRow="DateTime" msprop:Generator_ColumnVarNameInTable="columnDateTime" msprop:Generator_ColumnPropNameInTable="DateTimeColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="UserLogins" msprop:Generator_UserTableName="UserLogins" msprop:Generator_RowDeletedName="UserLoginsRowDeleted" msprop:Generator_TableClassName="UserLoginsDataTable" msprop:Generator_RowChangedName="UserLoginsRowChanged" msprop:Generator_RowClassName="UserLoginsRow" msprop:Generator_RowChangingName="UserLoginsRowChanging" msprop:Generator_RowEvArgName="UserLoginsRowChangeEvent" msprop:Generator_RowEvHandlerName="UserLoginsRowChangeEventHandler" msprop:Generator_TablePropName="UserLogins" msprop:Generator_TableVarName="tableUserLogins" msprop:Generator_RowDeletingName="UserLoginsRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Username" msprop:Generator_UserColumnName="Username" msprop:Generator_ColumnPropNameInRow="Username" msprop:Generator_ColumnVarNameInTable="columnUsername" msprop:Generator_ColumnPropNameInTable="UsernameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Email" msprop:Generator_UserColumnName="Email" msprop:Generator_ColumnPropNameInRow="Email" msprop:Generator_ColumnVarNameInTable="columnEmail" msprop:Generator_ColumnPropNameInTable="EmailColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="IPAddress" msprop:Generator_UserColumnName="IPAddress" msprop:Generator_ColumnPropNameInRow="IPAddress" msprop:Generator_ColumnVarNameInTable="columnIPAddress" msprop:Generator_ColumnPropNameInTable="IPAddressColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DateTime" msprop:Generator_UserColumnName="DateTime" msprop:Generator_ColumnPropNameInRow="DateTime" msprop:Generator_ColumnVarNameInTable="columnDateTime" msprop:Generator_ColumnPropNameInTable="DateTimeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Website" msprop:Generator_UserColumnName="Website" msprop:Generator_ColumnPropNameInRow="Website" msprop:Generator_ColumnVarNameInTable="columnWebsite" msprop:Generator_ColumnPropNameInTable="WebsiteColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

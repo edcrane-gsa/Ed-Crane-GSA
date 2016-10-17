@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GSA.R7BD.Utility", "GSA.R7BD.Utility.csproj", "{D72FC500-88C9-4913-866E-18E4090C0453}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = GSA.R7BD.Utility.csproj
+		SccLocalPath1 = .
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D72FC500-88C9-4913-866E-18E4090C0453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D72FC500-88C9-4913-866E-18E4090C0453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D72FC500-88C9-4913-866E-18E4090C0453}.Debug|x86.ActiveCfg = Debug|x86
+		{D72FC500-88C9-4913-866E-18E4090C0453}.Debug|x86.Build.0 = Debug|x86
+		{D72FC500-88C9-4913-866E-18E4090C0453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D72FC500-88C9-4913-866E-18E4090C0453}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D72FC500-88C9-4913-866E-18E4090C0453}.Release|x86.ActiveCfg = Release|x86
+		{D72FC500-88C9-4913-866E-18E4090C0453}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

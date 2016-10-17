@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="APPSTATXML" targetNamespace="http://tempuri.org/APPSTATXML.xsd" xmlns:mstns="http://tempuri.org/APPSTATXML.xsd" xmlns="http://tempuri.org/APPSTATXML.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="APPSTATXML" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="APPSTATXML" msprop:Generator_DataSetName="APPSTATXML" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AppStatus" msdata:Locale="en-TT" msprop:Generator_UserTableName="AppStatus" msprop:Generator_RowDeletedName="AppStatusRowDeleted" msprop:Generator_RowChangedName="AppStatusRowChanged" msprop:Generator_RowClassName="AppStatusRow" msprop:Generator_RowChangingName="AppStatusRowChanging" msprop:Generator_RowEvArgName="AppStatusRowChangeEvent" msprop:Generator_RowEvHandlerName="AppStatusRowChangeEventHandler" msprop:Generator_TableClassName="AppStatusDataTable" msprop:Generator_TableVarName="tableAppStatus" msprop:Generator_RowDeletingName="AppStatusRowDeleting" msprop:Generator_TablePropName="AppStatus">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AppName" msprop:Generator_UserColumnName="AppName" msprop:Generator_ColumnVarNameInTable="columnAppName" msprop:Generator_ColumnPropNameInRow="AppName" msprop:Generator_ColumnPropNameInTable="AppNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CloseStartDate" msprop:Generator_UserColumnName="CloseStartDate" msprop:Generator_ColumnVarNameInTable="columnCloseStartDate" msprop:Generator_ColumnPropNameInRow="CloseStartDate" msprop:Generator_ColumnPropNameInTable="CloseStartDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CloseEndDate" msprop:Generator_UserColumnName="CloseEndDate" msprop:Generator_ColumnPropNameInRow="CloseEndDate" msprop:Generator_ColumnVarNameInTable="columnCloseEndDate" msprop:Generator_ColumnPropNameInTable="CloseEndDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CloseMsg" msprop:Generator_UserColumnName="CloseMsg" msprop:Generator_ColumnPropNameInRow="CloseMsg" msprop:Generator_ColumnVarNameInTable="columnCloseMsg" msprop:Generator_ColumnPropNameInTable="CloseMsgColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="WarningStartDate" msprop:Generator_UserColumnName="WarningStartDate" msprop:Generator_ColumnPropNameInRow="WarningStartDate" msprop:Generator_ColumnVarNameInTable="columnWarningStartDate" msprop:Generator_ColumnPropNameInTable="WarningStartDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="WarningEndDate" msprop:Generator_UserColumnName="WarningEndDate" msprop:Generator_ColumnPropNameInRow="WarningEndDate" msprop:Generator_ColumnVarNameInTable="columnWarningEndDate" msprop:Generator_ColumnPropNameInTable="WarningEndDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="WarningMsg" msprop:Generator_UserColumnName="WarningMsg" msprop:Generator_ColumnPropNameInRow="WarningMsg" msprop:Generator_ColumnVarNameInTable="columnWarningMsg" msprop:Generator_ColumnPropNameInTable="WarningMsgColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

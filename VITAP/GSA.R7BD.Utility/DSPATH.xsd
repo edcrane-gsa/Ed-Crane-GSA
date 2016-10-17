@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSPATH" targetNamespace="http://tempuri.org/DSPATH.xsd" xmlns:mstns="http://tempuri.org/DSPATH.xsd" xmlns="http://tempuri.org/DSPATH.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSPATH" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DSPATH" msprop:Generator_UserDSName="DSPATH" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="NetworkMappings" msprop:Generator_UserTableName="NetworkMappings" msprop:Generator_RowDeletedName="NetworkMappingsRowDeleted" msprop:Generator_TableClassName="NetworkMappingsDataTable" msprop:Generator_RowChangedName="NetworkMappingsRowChanged" msprop:Generator_RowClassName="NetworkMappingsRow" msprop:Generator_RowChangingName="NetworkMappingsRowChanging" msprop:Generator_RowEvArgName="NetworkMappingsRowChangeEvent" msprop:Generator_RowEvHandlerName="NetworkMappingsRowChangeEventHandler" msprop:Generator_TablePropName="NetworkMappings" msprop:Generator_TableVarName="tableNetworkMappings" msprop:Generator_RowDeletingName="NetworkMappingsRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DriveLetter" msprop:Generator_UserColumnName="DriveLetter" msprop:Generator_ColumnPropNameInRow="DriveLetter" msprop:Generator_ColumnVarNameInTable="columnDriveLetter" msprop:Generator_ColumnPropNameInTable="DriveLetterColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DrivePath" msprop:Generator_UserColumnName="DrivePath" msprop:Generator_ColumnPropNameInRow="DrivePath" msprop:Generator_ColumnVarNameInTable="columnDrivePath" msprop:Generator_ColumnPropNameInTable="DrivePathColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
